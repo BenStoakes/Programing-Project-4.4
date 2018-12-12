@@ -14,7 +14,7 @@ public class BoxCar
    int boxCars = 0
    	
    	//===================
-   if (dieOne = dieTwo && dieOne || dieTwo = 6)
+   if (dieOne = dieTwo; dieOne || dieTwo = 6)
   		 boxCars + 1
    	       
    }
