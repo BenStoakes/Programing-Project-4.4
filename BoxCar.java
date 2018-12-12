@@ -7,15 +7,13 @@
 import java.util.Scanner;
 public class BoxCar
 {
-    public int (String[]args)
+    public void BoxCar (int dieOne, int dieTwo)
    {
     Scanner scan = new Scanner (System.in);	
     	
-   int boxCars = 0
+   int boxCars = 0;
    	
    	//===================
-   if (dieOne = dieTwo && dieOne || dieTwo = 6)
-  		 boxCars + 1
-   	       
+   if (dieOne == dieTwo) dieOne = 6; boxCars ++;
    }
 }
