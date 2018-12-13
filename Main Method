@@ -1,0 +1,35 @@
+/**
+ * @(#)DiceRolls.java
+ * @author 
+ * @version 1.00 2018/12/11
+ */
+
+import java.util.Random;
+public class DiceRolls extends BoxCar
+{
+    public static void main(String []args)
+    {
+    BoxCar BoxCarMethod = new BoxCar();
+    Random generator = new Random();
+    int dieOne = 0;
+    int dieTwo = 0;
+    int Rolls = 0;
+    int boxCars = 0;
+    int boxCarTrue = 0;
+    //------------------------------
+    while(Rolls < 1000)
+    {
+    dieOne = generator.nextInt(6)+1;
+    dieTwo = generator.nextInt(6)+1;
+    BoxCarMethod.BoxCarMethod(dieOne,dieTwo);
+    Rolls++;
+    if(BoxCarMethod == 1)
+    {
+    	boxCars++;
+    }
+    //-------------------------------------------------------------
+    }
+    System.out.println("The amount of boxcars that happend is: " +boxCars);
+  	System.out.println("oOf");
+    }
+}
