@@ -16,7 +16,7 @@ public class DiceRolls extends BoxCar
     int Rolls = 0;
     int boxCars = 0;
     int boxCarTrue = 0;
-    //------------------------------
+    //🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞
     while(Rolls < 1000)
     {
     dieOne = generator.nextInt(6)+1;
@@ -27,7 +27,7 @@ public class DiceRolls extends BoxCar
     {
     	boxCars++;
     }
-    //-------------------------------------------------------------
+    //🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞
     }
     System.out.println("The amount of boxcars that happend is: " +boxCars);
   	System.out.println("oOf");
